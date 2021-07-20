@@ -1,0 +1,137 @@
+<html>
+
+  <title>Head tag</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  <style>
+ 
+ .myDiv2  a:link, a:visited {
+    background-color:   #c04b4b ;
+    color:  #f1f1f1d3;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    ;
+  }
+  
+  .myDiv2 a:hover, a:active {
+    background-color: #555;
+  }
+  
+  
+ 
+  
+  .myDiv2 {
+      margin-left: 200px;
+      padding: 1px 16px;
+      height: 1000px;
+      /* border: 5px outset rgb(21, 22, 19);
+      background-color: rgb(221, 133, 32); */
+      text-align: left;}
+  
+  body {
+   
+  font-family: "Lato", sans-serif;
+}
+
+  .sidebar {
+    margin: 0;
+  padding: 0;
+/*   
+  background-color: #f1f1f1; */
+  position: fixed;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidebar a  {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #c04b4b ;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+  
+}
+
+ 
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+   
+    </style>
+  <head>
+  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+
+ 
+
+ </head>
+
+
+  <body style="background-color:none;">
+   
+    <div class="sidebar">
+      <a  href="C:\Html tutorial\web dev\1main page\main.html">Home<i class="w3-margin-left fa fa-home"></i></a>
+      <a  href="HTMLBasics.html">Html</a>
+      <a class="active" href="#contact">Head tag</a>
+      <a href="#about">h1 to h6 Tag</a>
+      <a href="#contact">i Tag</a>
+      <a href="#about">b Tag</a>
+      <a href="#contact">Body Tag</a>
+      <a href="#about">JavaScript</a>
+      <a href="#contact">br Tag</a>
+      <a href="#about">button Tag</a>
+      <a href="#about">iframe Tag</a>
+    </div>
+
+    <div class="myDiv2">
+        <h2>Head Tag</h2>
+        <p>
+          <ul>
+            <li>The   element is a container for metadata (data about data) and is placed between the  tag and the   tag.
+    
+            <li>Metadata is data about the HTML document. Metadata is not displayed.
+    
+            <li>Metadata typically define the document title, character set, styles, scripts, and other meta information.
+    
+     
+        </ul>
+        </p>
+        <h3 style="color:#c04b4b ;"> <B>To learn more feel free to watch the video below or refer to this link.</B> </h3>
+        <a href="https://www.w3schools.com/tags/tag_head.asp" > W3School Head Tag </a> <br><br>
+        <iframe width="420" height="215"
+        src="https://www.youtube.com/embed/xWSZFwnsWF4?autoplay=0&mute=1">
+        </iframe> <br> <br>
+      </div>
